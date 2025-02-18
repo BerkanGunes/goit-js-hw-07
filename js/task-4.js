@@ -15,7 +15,7 @@ loginForm.addEventListener('submit', event => {
   
   
   const formData = {
-    email,
+    email, 
     password
   };
   

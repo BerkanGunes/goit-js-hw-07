@@ -15,7 +15,7 @@ function createBoxes(amount) {
   boxesContainer.innerHTML = '';
   
   
-  const value = Number(amount);
+  const value = Number(amount); 
   if (value < 1 || value > 100) {
     return;
   }
